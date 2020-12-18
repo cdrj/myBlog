@@ -1,9 +1,13 @@
 spring:
   thymeleaf:
     mode: HTML
+  profiles:
+    active: dev
+logging:
+  level:
+    root: info
+    com.runjie: debug
+  file:
+    name: log/blog.log
 
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url:
-    username:
-    password:
+
