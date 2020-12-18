@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    mode: HTML
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:
+    username:
+    password:
